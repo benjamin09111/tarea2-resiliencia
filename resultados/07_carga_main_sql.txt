@@ -1,0 +1,22 @@
+# F7.2 - 2026-11-25T04:10:18+00:00 - carga de main.sql en BD vacia
+NOTICE:  database "prueba" does not exist, skipping
+CARGA OK (codigo 0)
+   capa    | aristas |  km   |  p_max   | con_p 
+-----------+---------+-------+----------+-------
+ acometida |      57 |   478 | 0.995098 |    45
+ camino    |    1204 |  8107 | 0.999810 |   200
+ ferry     |     219 |  2390 | 0.000000 |     0
+ fibra     |    2066 | 10313 | 0.999995 |  1310
+ postacion |    1277 |  6712 | 0.999962 |   735
+(5 rows)
+
+ vertices | nodos | sismos | parametros |   suma_p   
+----------+-------+--------+------------+------------
+     4594 |    24 |      1 |         12 | 449.963618
+(1 row)
+
+ pga_100km 
+-----------
+       538
+(1 row)
+

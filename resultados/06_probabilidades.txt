@@ -1,0 +1,68 @@
+== Rango de prob_falla (debe estar en [0,1])
+ p_min |       p_max        | enlaces 
+-------+--------------------+---------
+     0 | 0.9999954869333373 |    4823
+(1 row)
+
+== Enlaces y km por rango de p y capa
+   capa    | p_0  | p_0_01 | p_01_05 | p_05_09 | p_09_1 | km_p0 | km_p_mayor_05 
+-----------+------+--------+---------+---------+--------+-------+---------------
+ acometida |   12 |     35 |       7 |       1 |      2 |    55 |            26
+ camino    | 1004 |    103 |      54 |      30 |     13 |  7058 |           280
+ ferry     |  219 |      0 |       0 |       0 |      0 |  2390 |              
+ fibra     |  756 |    804 |     294 |     156 |     56 |  4516 |          1458
+ postacion |  542 |    401 |     242 |      64 |     28 |  3173 |           547
+(5 rows)
+
+== Distancia maxima al epicentro con p > 0 y minima con p = 0 (solo capas expuestas)
+ max_dist_p_pos | min_dist_p_cero 
+----------------+-----------------
+          593.9 |           594.1
+(1 row)
+
+== Valores de control del modelo (Ms = 8,5; h = 22,9 km)
+ d_km | pga_cms2 | pga_g | cortes_km 
+------+----------+-------+-----------
+   50 |      873 |  0.89 |    0.6760
+  100 |      538 |  0.55 |    0.2214
+  200 |      294 |  0.30 |    0.0445
+  300 |      199 |  0.20 |    0.0119
+  400 |      150 |  0.15 |    0.0030
+  500 |      119 |  0.12 |    0.0005
+  600 |       99 |  0.10 |    0.0000
+(7 rows)
+
+== PGA y p en los nodos clave: distancia al epicentro y PGA del modelo
+ id  |            nombre             | d_epi_km | pga_cms2 
+-----+-------------------------------+----------+----------
+ N17 | Concepción                    |       78 |      650
+ N16 | Chillán                       |       89 |      588
+ N15 | Talca                         |      136 |      416
+ N14 | Rancagua                      |      292 |      205
+ N18 | Temuco                        |      292 |      205
+ N13 | DC Pudahuel (Equinix ST1/ST2) |      351 |      171
+ N08 | DC Scala Placilla             |      353 |      170
+ N10 | Santiago Centro               |      361 |      166
+ N06 | Valparaíso                    |      361 |      166
+ N07 | MetroPort IX Viña del Mar     |      364 |      165
+ N11 | DC Santiago Norte             |      367 |      163
+ N12 | DC Lampa (EdgeConneX)         |      372 |      161
+ N19 | Valdivia                      |      411 |      146
+ N09 | Cruce a Argentina (Los Andes) |      421 |      142
+ N20 | DC Osorno (Nubicua)           |      496 |      120
+ N21 | Puerto Montt                  |      593 |      100
+ N05 | La Serena                     |      706 |       84
+ N04 | Copiapó                       |     1001 |       58
+ N22 | Coyhaique                     |     1052 |       55
+ N03 | Antofagasta                   |     1403 |       41
+ N02 | Iquique                       |     1783 |       31
+ N24 | PatagoniaIX y DC Apoapsis     |     1887 |       30
+ N23 | Punta Arenas                  |     1900 |       29
+ N01 | Arica                         |     1972 |       28
+(24 rows)
+
+ km_fibra_p0 | km_fibra | enlaces_p_pos | enlaces_p_mayor_05 | enlaces 
+-------------+----------+---------------+--------------------+---------
+        4516 |    10313 |          1310 |                212 |    2066
+(1 row)
+

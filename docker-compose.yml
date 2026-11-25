@@ -1,0 +1,58 @@
+# Servicios del proyecto. Se levantan con `python3 main.py` (o a mano con `docker compose`).
+name: tarea2
+
+services:
+  db:
+    # PostgreSQL 16 + PostGIS 3.5 + pgRouting 3.8.0 (ultima version con pgr_createTopology)
+    image: pgrouting/pgrouting:16-3.5-3.8.0
+    platform: linux/amd64
+    environment:
+      POSTGRES_USER: redes
+      POSTGRES_PASSWORD: redes
+      POSTGRES_DB: postgres
+    ports:
+      - "5433:5432"
+    volumes:
+      - tarea2_pgdata:/var/lib/postgresql/data
+      - ./:/work:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U redes -d postgres"]
+      interval: 3s
+      timeout: 3s
+      retries: 30
+
+  app:
+    # Scripts Python (carga, topologia, probabilidades, ATTR, mapa).
+    # Uso: docker compose run --rm app python -m src.<modulo>
+    build: .
+    image: tarea2-app:local
+    working_dir: /app
+    # Se ejecuta con el usuario del anfitrion (main.py exporta HOST_UID/HOST_GID) para que los archivos
+    # generados en resultados/, figuras/ y mapa/ no queden de root.
+    user: "${HOST_UID:-1000}:${HOST_GID:-1000}"
+    volumes:
+      - ./:/app
+    environment:
+      HOME: /tmp
+      MPLCONFIGDIR: /tmp/mpl
+      DB_HOST: db
+      DB_PORT: "5432"
+      DB_NAME: tarea2
+      DB_USER: redes
+      DB_PASSWORD: redes
+    depends_on:
+      db:
+        condition: service_healthy
+
+  web:
+    # Sirve la raiz del repo: el mapa queda en http://localhost:8000/mapa/
+    image: tarea2-app:local
+    working_dir: /app
+    command: python -m http.server 8000 --bind 0.0.0.0 --directory /app
+    volumes:
+      - ./:/app:ro
+    ports:
+      - "8000:8000"
+
+volumes:
+  tarea2_pgdata:

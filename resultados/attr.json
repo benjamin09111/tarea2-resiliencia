@@ -1,0 +1,466 @@
+{
+  "RF": {
+    "operacion": {
+      "red": "RF",
+      "escenario_falla": "operacion",
+      "metodo": "exacto (p = 0)",
+      "K": 24,
+      "pares": 276,
+      "n_aristas": 2123,
+      "n_aristas_p_positiva": 0,
+      "attr": 0.21739130434782608,
+      "ee": 0.0,
+      "ic95": [
+        0.21739130434782608,
+        0.21739130434782608
+      ],
+      "n_iter": 1,
+      "semilla": null,
+      "conectividad_por_nodo": {
+        "N01": {
+          "nombre": "Arica",
+          "conectividad_media": 0.0
+        },
+        "N02": {
+          "nombre": "Iquique",
+          "conectividad_media": 0.0
+        },
+        "N03": {
+          "nombre": "Antofagasta",
+          "conectividad_media": 0.0
+        },
+        "N04": {
+          "nombre": "Copiapó",
+          "conectividad_media": 0.43478260869565216
+        },
+        "N05": {
+          "nombre": "La Serena",
+          "conectividad_media": 0.43478260869565216
+        },
+        "N06": {
+          "nombre": "Valparaíso",
+          "conectividad_media": 0.43478260869565216
+        },
+        "N07": {
+          "nombre": "MetroPort IX Viña del Mar",
+          "conectividad_media": 0.43478260869565216
+        },
+        "N08": {
+          "nombre": "DC Scala Placilla",
+          "conectividad_media": 0.43478260869565216
+        },
+        "N09": {
+          "nombre": "Cruce a Argentina (Los Andes)",
+          "conectividad_media": 0.43478260869565216
+        },
+        "N10": {
+          "nombre": "Santiago Centro",
+          "conectividad_media": 0.43478260869565216
+        },
+        "N11": {
+          "nombre": "DC Santiago Norte",
+          "conectividad_media": 0.43478260869565216
+        },
+        "N12": {
+          "nombre": "DC Lampa (EdgeConneX)",
+          "conectividad_media": 0.43478260869565216
+        },
+        "N13": {
+          "nombre": "DC Pudahuel (Equinix ST1/ST2)",
+          "conectividad_media": 0.43478260869565216
+        },
+        "N14": {
+          "nombre": "Rancagua",
+          "conectividad_media": 0.43478260869565216
+        },
+        "N15": {
+          "nombre": "Talca",
+          "conectividad_media": 0.08695652173913043
+        },
+        "N16": {
+          "nombre": "Chillán",
+          "conectividad_media": 0.08695652173913043
+        },
+        "N17": {
+          "nombre": "Concepción",
+          "conectividad_media": 0.08695652173913043
+        },
+        "N18": {
+          "nombre": "Temuco",
+          "conectividad_media": 0.0
+        },
+        "N19": {
+          "nombre": "Valdivia",
+          "conectividad_media": 0.0
+        },
+        "N20": {
+          "nombre": "DC Osorno (Nubicua)",
+          "conectividad_media": 0.043478260869565216
+        },
+        "N21": {
+          "nombre": "Puerto Montt",
+          "conectividad_media": 0.043478260869565216
+        },
+        "N22": {
+          "nombre": "Coyhaique",
+          "conectividad_media": 0.0
+        },
+        "N23": {
+          "nombre": "Punta Arenas",
+          "conectividad_media": 0.043478260869565216
+        },
+        "N24": {
+          "nombre": "PatagoniaIX y DC Apoapsis",
+          "conectividad_media": 0.043478260869565216
+        }
+      }
+    },
+    "terremoto": {
+      "red": "RF",
+      "escenario_falla": "terremoto",
+      "metodo": "Monte Carlo, N = 10000, semilla 20100227",
+      "K": 24,
+      "pares": 276,
+      "n_aristas": 2123,
+      "n_aristas_p_positiva": 1355,
+      "attr": 0.1324,
+      "ee": 0.000498304357114741,
+      "ic95": [
+        0.13142332346005509,
+        0.1333766765399449
+      ],
+      "n_iter": 10000,
+      "semilla": 20100227,
+      "conectividad_por_nodo": {
+        "N01": {
+          "nombre": "Arica",
+          "conectividad_media": 0.0
+        },
+        "N02": {
+          "nombre": "Iquique",
+          "conectividad_media": 0.0
+        },
+        "N03": {
+          "nombre": "Antofagasta",
+          "conectividad_media": 0.0
+        },
+        "N04": {
+          "nombre": "Copiapó",
+          "conectividad_media": 0.2643130434782609
+        },
+        "N05": {
+          "nombre": "La Serena",
+          "conectividad_media": 0.2643130434782609
+        },
+        "N06": {
+          "nombre": "Valparaíso",
+          "conectividad_media": 0.2569086956521739
+        },
+        "N07": {
+          "nombre": "MetroPort IX Viña del Mar",
+          "conectividad_media": 0.25675652173913044
+        },
+        "N08": {
+          "nombre": "DC Scala Placilla",
+          "conectividad_media": 0.25658695652173913
+        },
+        "N09": {
+          "nombre": "Cruce a Argentina (Los Andes)",
+          "conectividad_media": 0.2678434782608695
+        },
+        "N10": {
+          "nombre": "Santiago Centro",
+          "conectividad_media": 0.31452608695652173
+        },
+        "N11": {
+          "nombre": "DC Santiago Norte",
+          "conectividad_media": 0.317704347826087
+        },
+        "N12": {
+          "nombre": "DC Lampa (EdgeConneX)",
+          "conectividad_media": 0.3177260869565217
+        },
+        "N13": {
+          "nombre": "DC Pudahuel (Equinix ST1/ST2)",
+          "conectividad_media": 0.31257826086956525
+        },
+        "N14": {
+          "nombre": "Rancagua",
+          "conectividad_media": 0.17691739130434786
+        },
+        "N15": {
+          "nombre": "Talca",
+          "conectividad_media": 0.0
+        },
+        "N16": {
+          "nombre": "Chillán",
+          "conectividad_media": 0.0
+        },
+        "N17": {
+          "nombre": "Concepción",
+          "conectividad_media": 0.0
+        },
+        "N18": {
+          "nombre": "Temuco",
+          "conectividad_media": 0.0
+        },
+        "N19": {
+          "nombre": "Valdivia",
+          "conectividad_media": 0.0
+        },
+        "N20": {
+          "nombre": "DC Osorno (Nubicua)",
+          "conectividad_media": 0.042234782608695655
+        },
+        "N21": {
+          "nombre": "Puerto Montt",
+          "conectividad_media": 0.042234782608695655
+        },
+        "N22": {
+          "nombre": "Coyhaique",
+          "conectividad_media": 0.0
+        },
+        "N23": {
+          "nombre": "Punta Arenas",
+          "conectividad_media": 0.043478260869565216
+        },
+        "N24": {
+          "nombre": "PatagoniaIX y DC Apoapsis",
+          "conectividad_media": 0.043478260869565216
+        }
+      }
+    }
+  },
+  "RE": {
+    "operacion": {
+      "red": "RE",
+      "escenario_falla": "operacion",
+      "metodo": "exacto (p = 0)",
+      "K": 24,
+      "pares": 276,
+      "n_aristas": 4823,
+      "n_aristas_p_positiva": 0,
+      "attr": 1.0,
+      "ee": 0.0,
+      "ic95": [
+        1.0,
+        1.0
+      ],
+      "n_iter": 1,
+      "semilla": null,
+      "conectividad_por_nodo": {
+        "N01": {
+          "nombre": "Arica",
+          "conectividad_media": 1.0
+        },
+        "N02": {
+          "nombre": "Iquique",
+          "conectividad_media": 1.0
+        },
+        "N03": {
+          "nombre": "Antofagasta",
+          "conectividad_media": 1.0
+        },
+        "N04": {
+          "nombre": "Copiapó",
+          "conectividad_media": 1.0
+        },
+        "N05": {
+          "nombre": "La Serena",
+          "conectividad_media": 1.0
+        },
+        "N06": {
+          "nombre": "Valparaíso",
+          "conectividad_media": 1.0
+        },
+        "N07": {
+          "nombre": "MetroPort IX Viña del Mar",
+          "conectividad_media": 1.0
+        },
+        "N08": {
+          "nombre": "DC Scala Placilla",
+          "conectividad_media": 1.0
+        },
+        "N09": {
+          "nombre": "Cruce a Argentina (Los Andes)",
+          "conectividad_media": 1.0
+        },
+        "N10": {
+          "nombre": "Santiago Centro",
+          "conectividad_media": 1.0
+        },
+        "N11": {
+          "nombre": "DC Santiago Norte",
+          "conectividad_media": 1.0
+        },
+        "N12": {
+          "nombre": "DC Lampa (EdgeConneX)",
+          "conectividad_media": 1.0
+        },
+        "N13": {
+          "nombre": "DC Pudahuel (Equinix ST1/ST2)",
+          "conectividad_media": 1.0
+        },
+        "N14": {
+          "nombre": "Rancagua",
+          "conectividad_media": 1.0
+        },
+        "N15": {
+          "nombre": "Talca",
+          "conectividad_media": 1.0
+        },
+        "N16": {
+          "nombre": "Chillán",
+          "conectividad_media": 1.0
+        },
+        "N17": {
+          "nombre": "Concepción",
+          "conectividad_media": 1.0
+        },
+        "N18": {
+          "nombre": "Temuco",
+          "conectividad_media": 1.0
+        },
+        "N19": {
+          "nombre": "Valdivia",
+          "conectividad_media": 1.0
+        },
+        "N20": {
+          "nombre": "DC Osorno (Nubicua)",
+          "conectividad_media": 1.0
+        },
+        "N21": {
+          "nombre": "Puerto Montt",
+          "conectividad_media": 1.0
+        },
+        "N22": {
+          "nombre": "Coyhaique",
+          "conectividad_media": 1.0
+        },
+        "N23": {
+          "nombre": "Punta Arenas",
+          "conectividad_media": 1.0
+        },
+        "N24": {
+          "nombre": "PatagoniaIX y DC Apoapsis",
+          "conectividad_media": 1.0
+        }
+      }
+    },
+    "terremoto": {
+      "red": "RE",
+      "escenario_falla": "terremoto",
+      "metodo": "Monte Carlo, N = 10000, semilla 20100227",
+      "K": 24,
+      "pares": 276,
+      "n_aristas": 4823,
+      "n_aristas_p_positiva": 2290,
+      "attr": 0.3141315217391304,
+      "ee": 0.0007838485581353893,
+      "ic95": [
+        0.31259517856518504,
+        0.31566786491307575
+      ],
+      "n_iter": 10000,
+      "semilla": 20100227,
+      "conectividad_por_nodo": {
+        "N01": {
+          "nombre": "Arica",
+          "conectividad_media": 0.45166086956521745
+        },
+        "N02": {
+          "nombre": "Iquique",
+          "conectividad_media": 0.45166086956521745
+        },
+        "N03": {
+          "nombre": "Antofagasta",
+          "conectividad_media": 0.45166086956521745
+        },
+        "N04": {
+          "nombre": "Copiapó",
+          "conectividad_media": 0.45166086956521745
+        },
+        "N05": {
+          "nombre": "La Serena",
+          "conectividad_media": 0.45166086956521745
+        },
+        "N06": {
+          "nombre": "Valparaíso",
+          "conectividad_media": 0.3470782608695652
+        },
+        "N07": {
+          "nombre": "MetroPort IX Viña del Mar",
+          "conectividad_media": 0.34700000000000003
+        },
+        "N08": {
+          "nombre": "DC Scala Placilla",
+          "conectividad_media": 0.3470695652173913
+        },
+        "N09": {
+          "nombre": "Cruce a Argentina (Los Andes)",
+          "conectividad_media": 0.4482260869565218
+        },
+        "N10": {
+          "nombre": "Santiago Centro",
+          "conectividad_media": 0.4539086956521739
+        },
+        "N11": {
+          "nombre": "DC Santiago Norte",
+          "conectividad_media": 0.45698695652173915
+        },
+        "N12": {
+          "nombre": "DC Lampa (EdgeConneX)",
+          "conectividad_media": 0.4574217391304347
+        },
+        "N13": {
+          "nombre": "DC Pudahuel (Equinix ST1/ST2)",
+          "conectividad_media": 0.45152608695652174
+        },
+        "N14": {
+          "nombre": "Rancagua",
+          "conectividad_media": 0.34526086956521734
+        },
+        "N15": {
+          "nombre": "Talca",
+          "conectividad_media": 0.0
+        },
+        "N16": {
+          "nombre": "Chillán",
+          "conectividad_media": 0.0
+        },
+        "N17": {
+          "nombre": "Concepción",
+          "conectividad_media": 0.0
+        },
+        "N18": {
+          "nombre": "Temuco",
+          "conectividad_media": 0.17048695652173912
+        },
+        "N19": {
+          "nombre": "Valdivia",
+          "conectividad_media": 0.23742608695652173
+        },
+        "N20": {
+          "nombre": "DC Osorno (Nubicua)",
+          "conectividad_media": 0.2436782608695652
+        },
+        "N21": {
+          "nombre": "Puerto Montt",
+          "conectividad_media": 0.24369565217391306
+        },
+        "N22": {
+          "nombre": "Coyhaique",
+          "conectividad_media": 0.24369565217391306
+        },
+        "N23": {
+          "nombre": "Punta Arenas",
+          "conectividad_media": 0.24369565217391306
+        },
+        "N24": {
+          "nombre": "PatagoniaIX y DC Apoapsis",
+          "conectividad_media": 0.24369565217391306
+        }
+      }
+    }
+  }
+}

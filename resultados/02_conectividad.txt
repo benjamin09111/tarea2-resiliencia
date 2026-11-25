@@ -1,0 +1,54 @@
+psql:/work/sql/03_componentes.sql:2: NOTICE:  column "comp_rf" of relation "red_noded_vertices_pgr" does not exist, skipping
+psql:/work/sql/03_componentes.sql:2: NOTICE:  column "comp_re" of relation "red_noded_vertices_pgr" does not exist, skipping
+ALTER TABLE
+ALTER TABLE
+UPDATE 2135
+UPDATE 4572
+== Vertices y componentes
+ vertices | aristas | componentes_rf | componentes_re 
+----------+---------+----------------+----------------
+     4572 |    4766 |            125 |             31
+(1 row)
+
+== 10 mayores componentes RF (km de fibra, latitudes extremas)
+ componente | aristas |   km   | lat_min | lat_max 
+------------+---------+--------+---------+---------
+        228 |     355 | 1944.4 |  -33.37 |  -27.46
+        106 |     231 | 1085.9 |  -38.55 |  -36.41
+        341 |     141 | 1055.0 |  -25.76 |  -20.74
+        122 |     232 | 1050.3 |  -36.75 |  -34.58
+        102 |     130 |  792.2 |  -46.30 |  -42.91
+         82 |     125 |  565.5 |  -40.41 |  -39.19
+         53 |      69 |  330.9 |  -41.79 |  -40.42
+        343 |      54 |  325.6 |  -27.54 |  -25.84
+          9 |      52 |  318.0 |  -43.12 |  -41.86
+        148 |      63 |  311.5 |  -53.19 |  -51.26
+(10 rows)
+
+== Componentes RF de una sola arista y km que suman
+ componentes_1_arista |  km   
+----------------------+-------
+                   44 | 180.8
+(1 row)
+
+== 10 mayores componentes RE
+ componente | aristas |   km    | lat_min | lat_max 
+------------+---------+---------+---------+---------
+          3 |    3000 | 15993.0 |  -55.08 |  -33.43
+        218 |    1639 | 10928.8 |  -33.60 |  -17.50
+       3489 |      15 |    68.6 |  -33.70 |  -33.58
+       3970 |      12 |    68.5 |  -53.84 |  -53.32
+       2782 |      15 |    67.4 |  -34.06 |  -33.98
+          1 |      13 |    54.1 |  -27.19 |  -27.07
+        236 |      12 |    46.9 |  -32.92 |  -32.72
+       1980 |       3 |    37.8 |  -41.83 |  -41.64
+       1915 |       8 |    36.0 |  -35.28 |  -35.23
+       3336 |       3 |    35.9 |  -28.95 |  -28.79
+(10 rows)
+
+== Callejones (vertices con cnt = 1) por escenario
+ callejones_total | vertices 
+------------------+----------
+              348 |     4572
+(1 row)
+

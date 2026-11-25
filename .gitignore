@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+# LaTeX (auxiliares)
+*.aux
+*.log
+*.out
+*.blg
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.toc
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini

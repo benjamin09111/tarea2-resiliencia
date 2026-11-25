@@ -1,0 +1,7 @@
+# Validacion independiente del ATTR en operacion con pgr_connectedComponents (SQL)
+ red | attr_sql 
+-----+----------
+ RE  |   1.0000
+ RF  |   0.2174
+(2 rows)
+

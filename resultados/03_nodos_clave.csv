@@ -1,0 +1,25 @@
+id,nombre,roles,lat,lon,coord_aproximada,vertice_id,n_acometidas,km_acometidas,comp_rf,comp_re,cobertura
+N01,Arica,recibe,-18.4734,-70.3067,t,4588,1,1.7,3711,1,RF+RE
+N02,Iquique,recibe,-20.2167,-70.1422,t,4589,3,22.4,279,1,RF+RE
+N03,Antofagasta,recibe,-23.6500,-70.4000,t,4590,1,0.4,96,1,RF+RE
+N04,Copiapó,recibe,-27.3668,-70.3323,t,4591,2,15.6,9,1,RF+RE
+N05,La Serena,recibe,-29.9063,-71.2502,t,4592,1,0.4,9,1,RF+RE
+N06,Valparaíso,recibe,-33.0458,-71.6205,t,4593,4,50.3,9,1,RF+RE
+N07,MetroPort IX Viña del Mar,intercambia,-33.0292,-71.5674,f,4594,3,28.3,9,1,RF+RE
+N08,DC Scala Placilla,genera,-33.1358,-71.5584,f,4536,4,47.2,9,1,RF+RE
+N09,Cruce a Argentina (Los Andes),recibe,-32.8337,-70.5983,t,4579,2,3.5,9,1,RF+RE
+N10,Santiago Centro,recibe;intercambia;genera,-33.4444,-70.6558,f,130,4,60.3,9,1,RF+RE
+N11,DC Santiago Norte,genera,-33.3566,-70.6989,f,135,2,14.9,9,1,RF+RE
+N12,DC Lampa (EdgeConneX),genera,-33.2974,-70.7016,f,137,2,10.0,9,1,RF+RE
+N13,DC Pudahuel (Equinix ST1/ST2),genera,-33.4480,-70.8483,f,40,5,74.7,9,1,RF+RE
+N14,Rancagua,recibe,-34.1708,-70.7444,t,42,5,40.6,9,1,RF+RE
+N15,Talca,recibe,-35.4264,-71.6554,t,48,1,1.0,21,1,RF+RE
+N16,Chillán,recibe,-36.6063,-72.1034,t,50,1,0.0,21,1,RF+RE
+N17,Concepción,recibe;intercambia;genera,-36.8158,-73.0484,f,52,4,27.5,21,1,RF+RE
+N18,Temuco,recibe;intercambia;genera,-38.7427,-72.5960,f,57,2,10.9,57,1,RF+RE
+N19,Valdivia,recibe;intercambia,-39.8142,-73.2459,t,60,2,17.5,11,1,RF+RE
+N20,DC Osorno (Nubicua),genera,-40.5914,-72.9530,f,62,2,24.2,7,1,RF+RE
+N21,Puerto Montt,recibe;genera,-41.4676,-72.9403,f,65,2,11.5,7,1,RF+RE
+N22,Coyhaique,recibe,-45.5712,-72.0685,t,68,2,10.2,68,1,RF+RE
+N23,Punta Arenas,recibe,-53.1667,-70.9333,t,70,1,1.7,17,1,RF+RE
+N24,PatagoniaIX y DC Apoapsis,intercambia;genera,-53.0467,-70.8729,f,72,1,2.7,17,1,RF+RE

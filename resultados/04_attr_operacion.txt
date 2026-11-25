@@ -1,0 +1,13 @@
+[RF] operacion: ATTR = 0.2174  (EE 0.0000, IC95 0.2174-0.2174)  exacto (p = 0); K = 24, pares = 276, aristas = 2123, con p>0 = 1355
+    grupo de 11: N04 Copiapó; N05 La Serena; N06 Valparaíso; N07 MetroPort IX Viña del Mar; N08 DC Scala Placilla; N09 Cruce a Argentina (Los Andes); N10 Santiago Centro; N11 DC Santiago Norte; N12 DC Lampa (EdgeConneX); N13 DC Pudahuel (Equinix ST1/ST2); N14 Rancagua
+    grupo de  3: N15 Talca; N16 Chillán; N17 Concepción
+    grupo de  2: N20 DC Osorno (Nubicua); N21 Puerto Montt
+    grupo de  2: N23 Punta Arenas; N24 PatagoniaIX y DC Apoapsis
+    grupo de  1: N01 Arica
+    grupo de  1: N02 Iquique
+    grupo de  1: N03 Antofagasta
+    grupo de  1: N18 Temuco
+    grupo de  1: N19 Valdivia
+    grupo de  1: N22 Coyhaique
+[RE] operacion: ATTR = 1.0000  (EE 0.0000, IC95 1.0000-1.0000)  exacto (p = 0); K = 24, pares = 276, aristas = 4823, con p>0 = 2290
+    grupo de 24: N01 Arica; N02 Iquique; N03 Antofagasta; N04 Copiapó; N05 La Serena; N06 Valparaíso; N07 MetroPort IX Viña del Mar; N08 DC Scala Placilla; N09 Cruce a Argentina (Los Andes); N10 Santiago Centro; N11 DC Santiago Norte; N12 DC Lampa (EdgeConneX); N13 DC Pudahuel (Equinix ST1/ST2); N14 Rancagua; N15 Talca; N16 Chillán; N17 Concepción; N18 Temuco; N19 Valdivia; N20 DC Osorno (Nubicua); N21 Puerto Montt; N22 Coyhaique; N23 Punta Arenas; N24 PatagoniaIX y DC Apoapsis

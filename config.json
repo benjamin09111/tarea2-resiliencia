@@ -1,0 +1,98 @@
+{
+  "db": {
+    "nombre": "tarea2",
+    "usuario": "redes",
+    "clave": "redes",
+    "puerto_host": 5433
+  },
+  "datos": {
+    "carpeta_saip": "datos/crudos/saip_T5610",
+    "capas": {
+      "fibra_optica_detectada": {
+        "capa": "fibra",
+        "sintetico": false
+      },
+      "postacion_electrica_detectada": {
+        "capa": "postacion",
+        "sintetico": true
+      },
+      "camino_sin_postacion_detectado": {
+        "capa": "camino",
+        "sintetico": true
+      },
+      "trayecto_en_ferry": {
+        "capa": "ferry",
+        "sintetico": true
+      }
+    }
+  },
+  "topologia": {
+    "tolerancia_grados": 0.0001,
+    "barrido_grados": [
+      1e-05,
+      5e-05,
+      0.0001,
+      0.0005,
+      0.001
+    ]
+  },
+  "escenarios": {
+    "RF": [
+      "fibra",
+      "acometida"
+    ],
+    "RE": [
+      "fibra",
+      "postacion",
+      "camino",
+      "ferry",
+      "acometida",
+      "acometida_re"
+    ]
+  },
+  "nodos_clave": {
+    "d_max_acometida_m": 20000,
+    "sensibilidad_d_max_m": [
+      10000,
+      30000
+    ]
+  },
+  "sismo": {
+    "id_usgs": "official20100227063411530_30",
+    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=official20100227063411530_30&format=geojson"
+  },
+  "modelo": {
+    "A": 1.995,
+    "C": 1.283,
+    "D_km": 30,
+    "B": 1.086,
+    "ms_max": 8.5,
+    "c": 2.88e-06,
+    "b": 1.97,
+    "alfa0_cms2": 100,
+    "Cp": 0.3,
+    "Cd": 1.6,
+    "Cg": 1.0,
+    "largo_tramo_m": 1000,
+    "capas_sin_falla": [
+      "ferry"
+    ]
+  },
+  "attr": {
+    "n_iter": 10000,
+    "semilla": 20100227
+  },
+  "sensibilidad": {
+    "ms_alternativo": 8.8
+  },
+  "esperados": {
+    "RF": {
+      "operacion": 0.2174,
+      "terremoto": 0.1324
+    },
+    "RE": {
+      "operacion": 1.0,
+      "terremoto": 0.3141
+    }
+  }
+}

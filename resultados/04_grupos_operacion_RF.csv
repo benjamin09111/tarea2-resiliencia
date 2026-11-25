@@ -1,0 +1,11 @@
+grupo,n_nodos,nodos
+1,11,N04 Copiapó; N05 La Serena; N06 Valparaíso; N07 MetroPort IX Viña del Mar; N08 DC Scala Placilla; N09 Cruce a Argentina (Los Andes); N10 Santiago Centro; N11 DC Santiago Norte; N12 DC Lampa (EdgeConneX); N13 DC Pudahuel (Equinix ST1/ST2); N14 Rancagua
+2,3,N15 Talca; N16 Chillán; N17 Concepción
+3,2,N20 DC Osorno (Nubicua); N21 Puerto Montt
+4,2,N23 Punta Arenas; N24 PatagoniaIX y DC Apoapsis
+5,1,N01 Arica
+6,1,N02 Iquique
+7,1,N03 Antofagasta
+8,1,N18 Temuco
+9,1,N19 Valdivia
+10,1,N22 Coyhaique

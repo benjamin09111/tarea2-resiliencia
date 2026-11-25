@@ -1,0 +1,2 @@
+[RF] terremoto: ATTR = 0.1324  (EE 0.0005, IC95 0.1314-0.1334)  Monte Carlo, N = 10000, semilla 20100227; K = 24, pares = 276, aristas = 2123, con p>0 = 1355
+[RE] terremoto: ATTR = 0.3141  (EE 0.0008, IC95 0.3126-0.3157)  Monte Carlo, N = 10000, semilla 20100227; K = 24, pares = 276, aristas = 4823, con p>0 = 2290

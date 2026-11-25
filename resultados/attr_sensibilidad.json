@@ -1,0 +1,104 @@
+{
+  "base": {
+    "acometidas": 57,
+    "RF": {
+      "attr_operacion": 0.21739130434782608,
+      "attr_terremoto": 0.1324,
+      "ee": 0.000498304357114741,
+      "diferencia": -0.08499130434782609,
+      "variacion_pct": -39.096000000000004
+    },
+    "RE": {
+      "attr_operacion": 1.0,
+      "attr_terremoto": 0.3141315217391304,
+      "ee": 0.0007838485581353893,
+      "diferencia": -0.6858684782608696,
+      "variacion_pct": -68.58684782608697
+    }
+  },
+  "Ms = 8,8": {
+    "acometidas": 57,
+    "RF": {
+      "attr_operacion": 0.21739130434782608,
+      "attr_terremoto": 0.042377536231884054,
+      "ee": 0.00015958837336655973,
+      "diferencia": -0.17501376811594202,
+      "variacion_pct": -80.50633333333333
+    },
+    "RE": {
+      "attr_operacion": 1.0,
+      "attr_terremoto": 0.12660108695652175,
+      "ee": 0.00038110429050533653,
+      "diferencia": -0.8733989130434783,
+      "variacion_pct": -87.33989130434783
+    }
+  },
+  "Cp = 1,0": {
+    "acometidas": 57,
+    "RF": {
+      "attr_operacion": 0.21739130434782608,
+      "attr_terremoto": 0.06362898550724637,
+      "ee": 0.0003050236044932389,
+      "diferencia": -0.15376231884057973,
+      "variacion_pct": -70.73066666666668
+    },
+    "RE": {
+      "attr_operacion": 1.0,
+      "attr_terremoto": 0.1833608695652174,
+      "ee": 0.0006175440300307061,
+      "diferencia": -0.8166391304347826,
+      "variacion_pct": -81.66391304347826
+    }
+  },
+  "acometidas sin falla": {
+    "acometidas": 57,
+    "RF": {
+      "attr_operacion": 0.21739130434782608,
+      "attr_terremoto": 0.13435326086956523,
+      "ee": 0.0004980535440193872,
+      "diferencia": -0.08303804347826085,
+      "variacion_pct": -38.1975
+    },
+    "RE": {
+      "attr_operacion": 1.0,
+      "attr_terremoto": 0.3160739130434783,
+      "ee": 0.0007800934753081791,
+      "diferencia": -0.6839260869565217,
+      "variacion_pct": -68.39260869565217
+    }
+  },
+  "D_max = 10 km": {
+    "acometidas": 30,
+    "RF": {
+      "attr_operacion": 0.06521739130434782,
+      "attr_terremoto": 0.044481159420289865,
+      "ee": 0.00010704209996789016,
+      "diferencia": -0.02073623188405796,
+      "variacion_pct": -31.795555555555538
+    },
+    "RE": {
+      "attr_operacion": 0.4384057971014493,
+      "attr_terremoto": 0.2296485507246377,
+      "ee": 0.0005832172241117721,
+      "diferencia": -0.2087572463768116,
+      "variacion_pct": -47.61735537190083
+    }
+  },
+  "D_max = 30 km": {
+    "acometidas": 87,
+    "RF": {
+      "attr_operacion": 0.23550724637681159,
+      "attr_terremoto": 0.15712210144927538,
+      "ee": 0.0004618830782645189,
+      "diferencia": -0.0783851449275362,
+      "variacion_pct": -33.28353846153845
+    },
+    "RE": {
+      "attr_operacion": 1.0,
+      "attr_terremoto": 0.3515684782608696,
+      "ee": 0.0007197593773453928,
+      "diferencia": -0.6484315217391303,
+      "variacion_pct": -64.84315217391303
+    }
+  }
+}

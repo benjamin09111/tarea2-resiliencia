@@ -1,0 +1,29 @@
+# Dependencias del contenedor Python (imagen python:3.12-slim). Versiones fijadas con `pip freeze`.
+# Directas (para que sirve cada una):
+psycopg[binary]==3.3.9   # conexion a PostgreSQL
+pyshp==3.1.9             # lectura de shapefiles (sin GDAL)
+numpy==2.5.5             # Monte Carlo
+scipy==1.18.1            # componentes conexas (csgraph)
+networkx==3.7            # puentes del grafo (corredores criticos)
+folium==1.0.0            # mapa Leaflet
+matplotlib==3.11.2       # figuras del informe
+# Transitivas (fijadas para reproducibilidad):
+branca==0.8.2
+certifi==2026.11.20
+charset-normalizer==3.5.3
+contourpy==1.4.0
+cycler==0.12.1
+fonttools==4.68.0
+idna==3.20
+Jinja2==3.1.6
+kiwisolver==1.5.1
+MarkupSafe==3.0.4
+packaging==26.4
+pillow==13.0.0
+pyparsing==3.3.3
+python-dateutil==4.0.0
+requests==2.34.2
+typing_extensions==4.16.0
+tzdata==2026.6
+urllib3==2.8.0
+xyzservices==2026.9.1

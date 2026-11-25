@@ -1,0 +1,7 @@
+base {"acometidas": 57, "RF": [0.2174, 0.1324], "RE": [1.0, 0.3141]}
+Ms = 8,8 {"acometidas": 57, "RF": [0.2174, 0.0424], "RE": [1.0, 0.1266]}
+Cp = 1,0 {"acometidas": 57, "RF": [0.2174, 0.0636], "RE": [1.0, 0.1834]}
+acometidas sin falla {"acometidas": 57, "RF": [0.2174, 0.1344], "RE": [1.0, 0.3161]}
+D_max = 10 km {"acometidas": 30, "RF": [0.0652, 0.0445], "RE": [0.4384, 0.2296]}
+D_max = 30 km {"acometidas": 87, "RF": [0.2355, 0.1571], "RE": [1.0, 0.3516]}
+caso base restituido: 4823 aristas, suma p = 449.963618, acometidas = 57
