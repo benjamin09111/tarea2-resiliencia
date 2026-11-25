@@ -59,7 +59,7 @@ El terremoto del 27 de febrero de 2010 dejó a más del \SI{60}{\percent} de la 
 Este trabajo estima cuánto se degrada la conectividad entre los nodos que generan, intercambian y reciben información si un sismo como el 27F afectara la infraestructura de fibra hoy reportada.
 La métrica es la confiabilidad promedio entre pares (ATTR) \cite{boettcher2018} y la amenaza es un modelo probabilístico de falla por enlace derivado del epicentro.
 En este trabajo se construye una topología de red en PostGIS y pgRouting con el archivo de infraestructura entregado por SUBTEL, se modela la probabilidad de falla de cada enlace con parámetros tomados de la literatura y se calcula el ATTR antes y después del sismo en dos escenarios de red.
-Todo queda en un repositorio que se ejecuta con un solo comando e incluye un mapa Leaflet.
+Todo el trabajo está en un repositorio público \cite{repositorio}, que se ejecuta con un solo comando e incluye un mapa Leaflet.
 
 % ---------------------------------------------------------------------
 \section{Entorno y datos}
@@ -443,7 +443,7 @@ Que RF sea de solo \num{0,217} sin sismo muestra que los datos disponibles no ga
 El trabajo futuro es modelar la ruptura extensa y la capa lógica de interconexión.
 
 \section*{Disponibilidad}
-El código, \texttt{main.sql} y el mapa están en \url{https://github.com/benjamin09111/tarea2-resiliencia}.
+Todo el material de este trabajo está en el repositorio \cite{repositorio}: el código, los datos de entrada, \texttt{main.sql}, los resultados de cada paso, el mapa interactivo y el código fuente de este informe.
 El archivo \texttt{main.sql} es un volcado de la base de datos con la infraestructura (aristas y vértices), los nodos clave, el sismo, los parámetros del modelo y la columna \texttt{prob\_falla} ya calculada, y se carga en una base vacía.
 Desde un clon limpio, \texttt{python3 main.py} levanta la base con Docker, carga \texttt{main.sql}, recalcula la topología, las probabilidades y el ATTR antes y después del sismo, comprueba que coinciden con este artículo y sirve el mapa Leaflet.
 El \texttt{README} detalla las dependencias y cada cifra del artículo proviene de la carpeta \texttt{resultados/}.
@@ -488,6 +488,14 @@ N.~Boettcher, Y.~Prieto, S.~E. Restrepo, and J.~E. Pezoa, ``Resilient
   multiculture network design in the presence of exploit-triggered correlated
   failures,'' \emph{IEEE Latin America Transactions}, vol.~16, no.~9, pp.
   2336--2343, 2018.
+
+\bibitem{repositorio}
+\BIBentryALTinterwordspacing
+B.~Morales, ``Resiliencia de la red de fibra {\'o}ptica chilena ante el
+  terremoto del 27{F}: c{\'o}digo, datos, resultados y mapa,'' Repositorio de
+  GitHub, 2026. [Online]. Available:
+  \url{https://github.com/benjamin09111/tarea2-resiliencia}
+\BIBentrySTDinterwordspacing
 
 \bibitem{pgrouting38}
 \BIBentryALTinterwordspacing
